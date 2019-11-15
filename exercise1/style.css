@@ -22,21 +22,21 @@ h1 {
 #contact{
     padding-left: 0px;
     list-style-type: none;
-    border-style:dotted;
+    border-style: dotted;
 }
 
 #all {
     padding-left: 8px;
-    list-style-position:outside;
+    list-style-position: outside;
 }
 
 #edu {
-    border-style:dotted;
+    border-style: dotted;
 }
 
 #skills {
-    border-style:dotted;
-    list-style-type:square;
+    border-style: dotted;
+    list-style-type: square;
 }
 
 #lessons {
