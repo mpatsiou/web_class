@@ -14,21 +14,21 @@ body {
         'menu main main main right'
 }
 h1 {
-	border-bottom: 1px #ccc solid;
-	border-top: 4px #eee solid;
-	font-family: Georgia;
-	font-size: 20px;
-	font-weight: normal;
-	padding: 5px 5px;
-	margin: 0;
-	letter-spacing: 1px;
+    border-bottom: 1px #ccc solid;
+    border-top: 4px #eee solid;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 5px;
+    margin: 0;
+    letter-spacing: 1px;
 }
 #right_header {
     position: absolute;
-	top: 4px;
-	right: 0;
-	overflow: auto;
-	padding: 0;
+    top: 4px;
+    right: 0;
+    overflow: auto;
+    padding: 0;
 }
 #right_header li {
     font-size: 18px;
@@ -78,16 +78,16 @@ h1 {
 }
 #right_side img {
     height: 144px;
-	width: 200px;
+    width: 200px;
 }
 #right_side {
     background-color: #eee;
-	color: #333;
+    color: #333;
     border: 1px #ccc solid;
-	margin: 30px 0px 0px 200px;
-	width: 210px;
+    margin: 30px 0px 0px 200px;
+    width: 210px;
     height: 180px;
-	text-align: center;
+    text-align: center;
 }
 #right_side p {
     margin-top: 5px;
