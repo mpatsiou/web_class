@@ -1,6 +1,7 @@
 body {
     font-family: "Trebuchet MS";
     color: black;
+    margin: 0;
 }
 #header {grid-area: header; }
 #left_list {grid-area: menu; }
@@ -9,8 +10,8 @@ body {
 #grid_container {
     display: grid;
     grid-template-areas:
-        'header header header header header header'
-        'menu main main main right right'
+        'header header header header header '
+        'menu main main main right'
 }
 h1 {
 	border-bottom: 1px #ccc solid;
@@ -21,13 +22,12 @@ h1 {
 	padding: 5px 5px;
 	margin: 0;
 	letter-spacing: 1px;
-	}
+}
 #right_header {
     position: absolute;
 	top: 4px;
 	right: 0;
 	overflow: auto;
-	margin: 25px 5px;
 	padding: 0;
 }
 #right_header li {
@@ -41,4 +41,72 @@ h1 {
 }
 #right_header a {
     color: #00428F;
+}
+#left_list {
+    background-color: #eee;
+    font-size: 18px;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    height: 400px;
+    width: 400px;
+    margin-left: 5px;
+}
+#left_list ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#subclass {
+    margin-left: 16px;
+}
+#left_list a {
+    color: #00428F;
+    text-decoration: none;
+}
+#left_list span {
+    color: black;
+}
+#red_element {
+    color: white;
+    background-color: #ad2121;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #790101;
+    border-bottom-color: #790101;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    height: 25px;
+}
+#right_side img {
+    height: 144px;
+	width: 200px;
+}
+#right_side {
+    background-color: #eee;
+	color: #333;
+    border: 1px #ccc solid;
+	margin: 30px 0px 0px 200px;
+	width: 210px;
+    height: 180px;
+	text-align: center;
+}
+#right_side p {
+    margin-top: 5px;
+}
+#main_article {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.quote {
+    margin-left: 30px;
+}
+#columnist {
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+    border-top: 1px solid #ccc;
+    width: 45%;
+    margin-left: 25%;
+}
+#columnist a {
+    color: #99c;
 }
